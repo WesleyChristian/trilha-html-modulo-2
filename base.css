@@ -1,0 +1,100 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #69cdfb;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #69cdfb;
+    padding: 150px 20px 0px;
+}
+.headerIndex {
+    background-image: url(/img/Capa-index\ 1Capa.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 150px;
+}
+.headerSobre {
+    background-image: url(/img/home-1\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 150px;
+}
+.headerHorario {
+    background-image: url(/img/Blanqueamiento-dental\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 150px;
+}
+.headerContato {
+    background-image: url(/img/montar-clinica-dental\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 150px;
+}
+.content {
+    background-color: rgb(249, 249, 249);
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: #69cdfb
+    min-height: 150px;
+}
+
+table {
+    -webkit-box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24);
+    box-shadow: 12px 14px 6px 5px rgba(0,0,0,0.24);
+    border:solid 1px gray
+}
+
+table thead th {
+    background-color: black;
+    color: white;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: #dbd8d8;
+}
+
+table tbody tr:hover td {
+    background-color: #bcbaba;
+}
+
+p {
+    font-size: larger;
+}
+
+h1 {
+    color: white;
+    font-size: xxx-large;
+}
+
+h2 {
+    color: blue;
+    font-size: xx-large;
+}
+
+h3 {
+    font-size: larger;
+}
+
+h4 {
+    margin: 10px;
+}
+
